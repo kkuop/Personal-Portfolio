@@ -1,4 +1,9 @@
 .header {
     font-size: xx-large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(155, 155, 155);
+    height:90px;
+}
+.name {
+    margin-top: 0px;
 }
