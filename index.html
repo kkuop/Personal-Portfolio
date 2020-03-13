@@ -11,36 +11,38 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
         <script src="bs.js"></script>
     </head>
-    <body class="bg-dark">
-        <div class="container-fluid bg-dark">
+    <body class="bg-dark-mine">
+        <div class="container-fluid bg-dark-mine">
             <div class="row justify-content-center">
-                <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-                    <a class="navbar-brand" href="#">
-                        <img src="images/me.png" alt="me" width="40px">
-                    </a>
+                <nav class="navbar navbar-expand-sm bg-dark-mine navbar-dark">                    
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="navbar-brand" href="#">
+                                <img src="images/me.png" alt="me" width="40px">
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Projects</a>
+                            <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">GitHub</a>
+                            <a class="nav-link" href="#projects">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#github">GitHub</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </nav>
             </div>
             <div class="row header justify-content-center">
-                <div class="col-sm text-center">
+                <div class="col-sm text-center header">
                     <span class="name header-content">Kyle Kuopus</span>
                 </div>                              
             </div>
             <div class="row justify-content-center">
-                <div class="col-sm-8 text-center bg-dark ">
+                <div class="col-sm-8 text-center bg-dark-mine">
                     <div id="myCarousel" class="carousel slide my-carousel">
                         <ul class="carousel-indicators">
                             <li class="item1 active"></li>
@@ -68,7 +70,55 @@
                 </div>
             </div>
             <div class="row justify-content-center">
+                <div class="col-sm-8 bg-light-mine">
+                    <div class="about-me col-sm" id="about">
+                        <div>
+                            <span class="about-me-title">About Me</span>
+                        </div>
+                        <div>
+                            <span class="about-me-content">Growing up with 8 siblings can provide some great insight on life. On one hand, I am forced to respect my older siblings but on the other hand, care for the young. Our modest home in the rural sticks of the Upper Peninsula of Michigan gave us the opportunity to explore nature and appreciate what has been given to us. To be continued...</span>
+                        </div>
+                    </div>
+                    <div class="projects col-sm" id="projects">
+                        <div>
+                            <span class="projects-title">Projects</span>
+                        </div>
+                        <div>
+                            <span class="projects-content">Here are some of my crown jewels:</span>
+                        </div>
+                        <div class="projects-tiles">
+                            <div class="tile text-center" id="tile1">
+                                <a href="https://github.com/Matthew-Van-Hecke/humane-society">
+                                <img src="images/github.png" alt="GitHub logo" height="100px"><p>Humane Society</p></a>
+                            </div>
+                            <div class="tile text-center" id="tile2">
+                                <a href="https://github.com/kkuop/lemonade-stand">
+                                <img src="images/github.png" alt="GitHub logo" height="100px"><p>Lemonade Stand</p></a>
+                            </div>
+                            <div class="tile text-center" id="tile3">
+                                <a href="https://github.com/kkuop/personal-portfolio">
+                                <img src="images/github.png" alt="GitHub logo" height="100px"><p>Personal Portfolio Website</p></a>
+                            </div>                            
+                        </div>
+                    </div>
 
+                    <div class="github" id="github">
+                        <div>
+                            <span class="github-title">GitHub</span>
+                        </div>
+                        <div>
+                            <span class="github-content">Link to my GitHub</span>
+                        </div>
+                    </div>
+                    <div class="contact" id="contact">
+                        <div>
+                            <span class="contact-title">Contact Me</span>
+                        </div>
+                        <div>
+                            <span class="contact-content">Form to contact me</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </body>

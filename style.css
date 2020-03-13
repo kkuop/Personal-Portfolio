@@ -1,21 +1,67 @@
+.bg-dark-mine {
+    background-color: #000000;
+}
+.bg-light-mine{
+    background-color: #dedede;
+}
 .header {
     
-    background-color: rgb(155, 155, 155);
-    height:100px;
+    background-color: #303030;
+    height:90px;
+    padding-top: 8px;
 }
 .header-content {
-    vertical-align: bottom;
-    height:90px;
+    color: #a6a6a6;
+
 }
 .name {
-    font-size: xx-large;
+    font-size: 2.5em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bolder;
+
 }
 .carousel-inner img {
     width: 100%;
     height: 100%;
 }
 .my-carousel {
-    margin-top:-15px;
+    margin-top:-18px;
+}
+.about-me, .projects, .github, .contact{
+    padding: 20px 35px 20px 35px;
+}
+.about-me-title, .projects-title, .github-title, .contact-title{
+    font-size:2.2em;
+    font-weight:bold;
+}
+.about-me-content, .projects-content, .github-content, .contact-content {
+    font-size:1em;
+}
+.projects-tiles {
+    margin-top:10px;
+}
+.tile {
+    display: inline-block;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 18px #888888
+}
+.tile p {
+    padding-top:20px;
+}
+#tile1:hover, #tile2:hover, #tile3:hover {
+    background-color: #c0c0c0;
+}
+a:link {
+    text-decoration: none;
+    color: rgb(59, 129, 233);
+}
+a:visited {
+    color: purple;
+}
+a:hover {
+    color: rgb(22, 106, 233);
+}
+a:active {
+    color: blue;
 }
